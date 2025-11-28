@@ -29,7 +29,11 @@ def home(request):
         "message": "Welcome to EmployeeFlow API",
         "endpoints": {
             "admin": "/admin/",
-            "employees": "/api/employees/"
+            "token": "/api/token/",
+            "token_refresh": "/api/token/refresh/",
+            "employees": "/api/employees/",
+            "departments": "/api/departments/",
+            "workflows": "/api/workflows/",
         }
     })
 
