@@ -104,6 +104,7 @@ DATABASES = {
     }
 }
 
+#Every API call now requires JWT auth, unless explicitly opened with AllowAny.
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
